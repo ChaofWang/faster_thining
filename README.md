@@ -14,6 +14,12 @@ Benchmark tests on an Intel i5-10400 processor:
 - **Faster Thinning**: 0.02880 seconds per run  
 - **OpenCV `cv::ximgproc::thinning`**: 0.24943 seconds per run
 
+## Visualization Results
+input :
+  ![input image ](tmp.png "Input Image")
+output :
+  ![output image ](sk.png "Ouput Image")
+
 ## Seamless Integration
 
 This implementation is designed to be a drop-in replacement for `cv::ximgproc::thinning`. You can easily integrate it into your existing C++ projects without modifying your core logic. Simply import the provided code and use it as a direct substitute.
